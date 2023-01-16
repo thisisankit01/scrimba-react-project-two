@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 * {
   margin: 0;
   padding: 0;
@@ -40,6 +44,11 @@ justify-content: center;
   max-width: 500px;
 }
 
+.card-container {
+  display: flex;
+  justify-content: space-between;
+}
+
 .card {
   width: 175px;
   font-size: 12px;
@@ -47,13 +56,8 @@ justify-content: center;
 }
 
 .card--image {
-  width: 100%;
+  width: 175%;
   border-radius: 9px;
-}
-
-.card--stats {
-  display: flex;
-  align-items: center;
 }
 
 .card--star {
