@@ -50,6 +50,7 @@ justify-content: center;
 }
 
 .card {
+  position: relative;
   width: 175px;
   font-size: 12px;
   padding: 0px 40px;
@@ -121,4 +122,14 @@ justify-content: center;
   margin-block: 3px;
   font-size: 12px;
   color: #2B283A;
+}
+
+.card--badge {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
 }
